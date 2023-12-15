@@ -1,0 +1,19 @@
+h1 {
+    text-align: center;
+}
+.resim-grup-1 {
+    display: flex;
+}
+
+.resim-grup-1 img {
+    width: 33.33%; /* Her resmin genişliği eşit olacak şekilde */
+    box-sizing: border-box;
+    padding: 5px; /* İsteğe bağlı kenar boşluğu ekleyebilirsiniz */
+}
+
+/* İkinci grup resimler (alt alta) */
+.resim-grup-2 img {
+    width: 100%; /* Her resmin genişliği %100 olacak şekilde */
+    box-sizing: border-box;
+    padding: 5px; /* İsteğe bağlı kenar boşluğu ekleyebilirsiniz */
+}
