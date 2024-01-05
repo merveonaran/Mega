@@ -1,0 +1,23 @@
+/* Footer.css */
+
+.footer {
+    background-color: #6c91da; /* Change the background color as needed */
+    color: white;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    margin: 0; /* Remove default margin */
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .footer-content p {
+    width: 100%;
+    margin: 5px 0; /* Adjust the margin as needed */
+  }
+  
