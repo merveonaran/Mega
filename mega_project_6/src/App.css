@@ -1,0 +1,168 @@
+.App {
+  text-align: center;
+  background-color: #dc5ac4;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #1954cb;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #7129a1;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  color:white;
+  background-color: #444444;
+}
+
+h2 {
+  font-size: 30px;
+  color:#FC466B;
+}
+
+.btn {
+  width: 250px;
+  height: 80px;
+  margin: 10px;
+  background: linear-gradient(90deg, #FC466B 0%, #8144dd 100%);
+  background-size: 100%;
+  font-size: 1em;
+  font-weight: 600;
+  border-radius: 100px;
+  color: white;
+  border: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 1em 2em;
+  cursor: pointer;
+  transition: all 500ms ease;
+  box-shadow: 0 4px 6px -1px hsla(0, 0%, 0%, 0.1), 0 2px 4px -2px hsla(0, 0%, 0%, 0.1);
+}
+
+button:hover {
+  animation-name: flow;
+  animation-duration: 500ms;
+  animation-timing-function: linear;
+  box-shadow: 0 8px 16px rgba(237, 24, 180, 0.2);
+  
+}
+.btn {
+  background-size:100% 350%;
+  transition: all .4s ease-in-out;
+  box-shadow: 0 4px 8px azure;
+}
+
+.btn:hover {
+  background: linear-gradient(90deg, #4e4ace 0%, #b860bd 100%);
+  background-position: 100% 0;
+}
+
+input {
+  width: 500px;
+  min-height: 30px;
+  border: 2px solid #FC466B;
+  border-radius: 100px;
+  box-shadow: 0 4px 8px azure;
+  transition: transform 0.3s, box-shadow 0.3s;
+  background-color: #444444 ;
+  font-family: "Poppins", sans-serif;
+  padding: 5px;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+input:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid #8144dd;
+}
+
+.tempConvertorPage {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  height: 100vh;
+}
+
+.enterCelsius {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  
+  background-color:  #444444;
+  font-family: "Poppins", sans-serif;
+}
+.fahrenheitResult {
+  width: 470px;
+  height: 30px;
+  background: linear-gradient(90deg, #7d46aa 0%, #20c3cb 100%);
+  background-size: 100%;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+  color: white;
+  border: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 1em 2em;
+  cursor: pointer;
+  transition: all 500ms ease;
+  box-shadow: 0 4px 6px -1px hsla(0, 0%, 0%, 0.1), 0 2px 4px -2px hsla(0, 0%, 0%, 0.1);
+  box-shadow: 0 4px 8px azure;
+  
+}
