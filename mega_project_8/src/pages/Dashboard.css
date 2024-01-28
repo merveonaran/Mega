@@ -1,0 +1,14 @@
+.dashboard {
+  display: flex;
+  background: rgb(214, 168, 168);
+  height: 100%;
+}
+
+.vertical {
+  border: none;
+  border-left: 1px solid hsla(200, 10%, 50%, 100);
+  margin: 30px 0;
+  margin-left: 30px;
+  height: 900px;
+  width: 1px;
+}
